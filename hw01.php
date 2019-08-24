@@ -40,6 +40,6 @@ for($i=1;$i<=$num;$i++){
     echo"</table>";
 //只要一欄沒輸入就提醒
 }elseif(isset($_GET['num']) && (empty($_GET['num'])|| empty($_GET['row']))){
-    echo"兩欄都要輸入數字!!";
+    echo"兩欄都要輸入數字";
 }
 ?>
